@@ -6,6 +6,7 @@ using System.Linq;
 using System.Security.Claims;
 using System.Text;
 using System.Threading.Tasks;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Configuration;
@@ -13,13 +14,12 @@ using Microsoft.IdentityModel.Tokens;
 
 namespace WebApiJwt.Controllers
 {
-    [Route("[controller]/[action]")]
     public class AccountController : Controller
     {
         private readonly SignInManager<IdentityUser> _signInManager;
         private readonly UserManager<IdentityUser> _userManager;
         private readonly IConfiguration _configuration;
-
+        
         public AccountController(
             UserManager<IdentityUser> userManager,
             SignInManager<IdentityUser> signInManager,
@@ -31,7 +31,7 @@ namespace WebApiJwt.Controllers
             _configuration = configuration;
         }
 
-        [HttpPost]
+        [HttpPost("api/login")]
         public async Task<object> Login([FromBody] LoginDto model)
         {
             var result = await _signInManager.PasswordSignInAsync(model.Email, model.Password, false, false);
@@ -45,7 +45,7 @@ namespace WebApiJwt.Controllers
             throw new ApplicationException("INVALID_LOGIN_ATTEMPT");
         }
 
-        [HttpPost]
+        [HttpPost("api/register")]
         public async Task<object> Register([FromBody] RegisterDto model)
         {
             var user = new IdentityUser
