@@ -1,0 +1,14 @@
+C:\Users\anes\Desktop\ChaterBack\Chater\bin\Debug\netcoreapp2.1\Chater.deps.json
+C:\Users\anes\Desktop\ChaterBack\Chater\bin\Debug\netcoreapp2.1\Chater.runtimeconfig.json
+C:\Users\anes\Desktop\ChaterBack\Chater\bin\Debug\netcoreapp2.1\Chater.runtimeconfig.dev.json
+C:\Users\anes\Desktop\ChaterBack\Chater\bin\Debug\netcoreapp2.1\Chater.dll
+C:\Users\anes\Desktop\ChaterBack\Chater\bin\Debug\netcoreapp2.1\Chater.pdb
+C:\Users\anes\Desktop\ChaterBack\Chater\obj\Debug\netcoreapp2.1\Chater.csprojAssemblyReference.cache
+C:\Users\anes\Desktop\ChaterBack\Chater\obj\Debug\netcoreapp2.1\Chater.csproj.CoreCompileInputs.cache
+C:\Users\anes\Desktop\ChaterBack\Chater\obj\Debug\netcoreapp2.1\Chater.RazorAssemblyInfo.cache
+C:\Users\anes\Desktop\ChaterBack\Chater\obj\Debug\netcoreapp2.1\Chater.RazorAssemblyInfo.cs
+C:\Users\anes\Desktop\ChaterBack\Chater\obj\Debug\netcoreapp2.1\Chater.AssemblyInfoInputs.cache
+C:\Users\anes\Desktop\ChaterBack\Chater\obj\Debug\netcoreapp2.1\Chater.AssemblyInfo.cs
+C:\Users\anes\Desktop\ChaterBack\Chater\obj\Debug\netcoreapp2.1\Chater.RazorTargetAssemblyInfo.cache
+C:\Users\anes\Desktop\ChaterBack\Chater\obj\Debug\netcoreapp2.1\Chater.dll
+C:\Users\anes\Desktop\ChaterBack\Chater\obj\Debug\netcoreapp2.1\Chater.pdb

@@ -1,0 +1,14 @@
+C:\Users\anes\Desktop\ChaterBack\webapitest\bin\Debug\netcoreapp2.1\webapitest.deps.json
+C:\Users\anes\Desktop\ChaterBack\webapitest\bin\Debug\netcoreapp2.1\webapitest.runtimeconfig.json
+C:\Users\anes\Desktop\ChaterBack\webapitest\bin\Debug\netcoreapp2.1\webapitest.runtimeconfig.dev.json
+C:\Users\anes\Desktop\ChaterBack\webapitest\bin\Debug\netcoreapp2.1\webapitest.dll
+C:\Users\anes\Desktop\ChaterBack\webapitest\obj\Debug\netcoreapp2.1\webapitest.csprojAssemblyReference.cache
+C:\Users\anes\Desktop\ChaterBack\webapitest\obj\Debug\netcoreapp2.1\webapitest.csproj.CoreCompileInputs.cache
+C:\Users\anes\Desktop\ChaterBack\webapitest\obj\Debug\netcoreapp2.1\webapitest.RazorAssemblyInfo.cache
+C:\Users\anes\Desktop\ChaterBack\webapitest\obj\Debug\netcoreapp2.1\webapitest.RazorAssemblyInfo.cs
+C:\Users\anes\Desktop\ChaterBack\webapitest\obj\Debug\netcoreapp2.1\webapitest.AssemblyInfoInputs.cache
+C:\Users\anes\Desktop\ChaterBack\webapitest\obj\Debug\netcoreapp2.1\webapitest.AssemblyInfo.cs
+C:\Users\anes\Desktop\ChaterBack\webapitest\obj\Debug\netcoreapp2.1\webapitest.RazorTargetAssemblyInfo.cache
+C:\Users\anes\Desktop\ChaterBack\webapitest\bin\Debug\netcoreapp2.1\webapitest.pdb
+C:\Users\anes\Desktop\ChaterBack\webapitest\obj\Debug\netcoreapp2.1\webapitest.dll
+C:\Users\anes\Desktop\ChaterBack\webapitest\obj\Debug\netcoreapp2.1\webapitest.pdb
