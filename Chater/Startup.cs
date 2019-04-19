@@ -37,7 +37,7 @@ namespace Chater
                 options.AddPolicy("ChaterPolicy",
                 builder =>
                 {
-                    builder.AllowAnyOrigin().AllowAnyHeader().AllowAnyMethod();
+                    builder.AllowAnyOrigin().AllowAnyHeader().AllowAnyMethod().AllowCredentials();
                 });
             });
 
@@ -54,7 +54,6 @@ namespace Chater
                     options.DefaultAuthenticateScheme = JwtBearerDefaults.AuthenticationScheme;
                     options.DefaultScheme = JwtBearerDefaults.AuthenticationScheme;
                     options.DefaultChallengeScheme = JwtBearerDefaults.AuthenticationScheme;
-
                 })
                 .AddJwtBearer(cfg =>
                 {

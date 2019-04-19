@@ -7,13 +7,15 @@ using System.Security.Claims;
 using System.Text;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Cors;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Configuration;
 using Microsoft.IdentityModel.Tokens;
 
-namespace WebApiJwt.Controllers
+namespace Chater.Controllers
 {
+    [EnableCors("ChaterPolicy")]
     public class AccountController : Controller
     {
         private readonly SignInManager<IdentityUser> _signInManager;
@@ -32,21 +34,21 @@ namespace WebApiJwt.Controllers
         }
 
         [HttpPost("api/login")]
-        public async Task<object> Login([FromBody] LoginDto model)
+        public async Task<ActionResult> Login([FromBody] LoginDto model)
         {
             var result = await _signInManager.PasswordSignInAsync(model.Email, model.Password, false, false);
 
             if (result.Succeeded)
             {
                 var appUser = _userManager.Users.SingleOrDefault(r => r.Email == model.Email);
-                return await GenerateJwtToken(model.Email, appUser);
+                return Ok(new { title = await GenerateJwtToken(model.Email, appUser) });
             }
 
             throw new ApplicationException("INVALID_LOGIN_ATTEMPT");
         }
 
         [HttpPost("api/register")]
-        public async Task<object> Register([FromBody] RegisterDto model)
+        public async Task<IActionResult> Register([FromBody] RegisterDto model)
         {
             var user = new IdentityUser
             {
@@ -58,12 +60,12 @@ namespace WebApiJwt.Controllers
             if (result.Succeeded)
             {
                 await _signInManager.SignInAsync(user, false);
-                return await GenerateJwtToken(model.Email, user);
+                return Ok(new { token = await GenerateJwtToken(model.Email, user) });
             }
 
             var errors = result.Errors;
             var message = string.Join(" ,", errors);
-            return message;
+            return NotFound(message);
         }
 
         private async Task<object> GenerateJwtToken(string email, IdentityUser user)
