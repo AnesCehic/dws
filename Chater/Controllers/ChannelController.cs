@@ -2,44 +2,84 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using Chater.Models;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.EntityFrameworkCore;
 
 namespace Chater.Controllers
 {
+    [Authorize]
     public class ChannelController : Controller
     {
+        private ApplicationDbContext _context;
+
+        public ChannelController(ApplicationDbContext context)
+        {
+            _context = context;
+        }
+
         [HttpGet]
         [Route("channels")]
-        public IActionResult GetChannels()
+        public async Task<ActionResult<IEnumerable<Group>>> GetChannels()
         {
-            return Ok();
+            return await _context.Groups.ToListAsync();
         }
 
         [HttpGet]
         [Route("channels/{id}")]
-        public IActionResult GetChannelById(int id)
+        public async Task<ActionResult<Group>> GetChannelById(string id)
         {
-            return Ok(id);
+            var group = await _context.Groups.FindAsync(id);
+
+            if(group == null)
+            {
+                return NotFound(); 
+            }
+
+            return group;
         }
 
         [HttpPost]
         [Route("channels/create")]
-        public IActionResult CreateChannel()
+        public async Task<ActionResult<Group>> CreateChannel([FromBody] Group group)
         {
-            return Ok();
+            _context.Groups.Add(group);
+            await _context.SaveChangesAsync();
+
+            return Ok(group);
         }
 
+        //popraviti
         [HttpPut]
         [Route("channels/{id}")]
-        public IActionResult UpdateChannelById(int id)
+        public async Task<IActionResult> UpdateChannelById(string id, Group group)
         {
-            return Ok(id);
+            if(id != group.Id)
+            {
+                return BadRequest();
+            }
+
+            _context.Entry(group).State = EntityState.Modified;
+            await _context.SaveChangesAsync();
+
+            return NoContent();
         }
 
         [HttpDelete]
         [Route("channels/{id}")]
-        public IActionResult DeleteChannelById(int id)
+        public async Task<IActionResult> DeleteChannelById(string id)
         {
+            var group = await _context.Groups.FindAsync(id);
+
+            if(group == null)
+            {
+                return NotFound();
+            }
+
+            _context.Groups.Remove(group);
+            await _context.SaveChangesAsync();
+
             return NoContent();
         }
     }
