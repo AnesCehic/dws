@@ -75,6 +75,7 @@ namespace Chater.Controllers
             {
                 new Claim(JwtRegisteredClaimNames.Sub, email),
                 new Claim(JwtRegisteredClaimNames.Jti, Guid.NewGuid().ToString()),
+                new Claim("id", user.Id),
                 new Claim(ClaimTypes.NameIdentifier, user.Id)
             };
 

@@ -40,3 +40,17 @@ C:\Users\Sanjin\Desktop\dwsBack\Chater\obj\Debug\netcoreapp2.1\Chater.AssemblyIn
 C:\Users\Sanjin\Desktop\dwsBack\Chater\obj\Debug\netcoreapp2.1\Chater.RazorTargetAssemblyInfo.cache
 C:\Users\Sanjin\Desktop\dwsBack\Chater\obj\Debug\netcoreapp2.1\Chater.dll
 C:\Users\Sanjin\Desktop\dwsBack\Chater\obj\Debug\netcoreapp2.1\Chater.pdb
+E:\Projekti\ChaterBack\dws\Chater\bin\Debug\netcoreapp2.1\Chater.deps.json
+E:\Projekti\ChaterBack\dws\Chater\bin\Debug\netcoreapp2.1\Chater.runtimeconfig.json
+E:\Projekti\ChaterBack\dws\Chater\bin\Debug\netcoreapp2.1\Chater.runtimeconfig.dev.json
+E:\Projekti\ChaterBack\dws\Chater\bin\Debug\netcoreapp2.1\Chater.dll
+E:\Projekti\ChaterBack\dws\Chater\bin\Debug\netcoreapp2.1\Chater.pdb
+E:\Projekti\ChaterBack\dws\Chater\obj\Debug\netcoreapp2.1\Chater.csprojAssemblyReference.cache
+E:\Projekti\ChaterBack\dws\Chater\obj\Debug\netcoreapp2.1\Chater.csproj.CoreCompileInputs.cache
+E:\Projekti\ChaterBack\dws\Chater\obj\Debug\netcoreapp2.1\Chater.RazorAssemblyInfo.cache
+E:\Projekti\ChaterBack\dws\Chater\obj\Debug\netcoreapp2.1\Chater.RazorAssemblyInfo.cs
+E:\Projekti\ChaterBack\dws\Chater\obj\Debug\netcoreapp2.1\Chater.AssemblyInfoInputs.cache
+E:\Projekti\ChaterBack\dws\Chater\obj\Debug\netcoreapp2.1\Chater.AssemblyInfo.cs
+E:\Projekti\ChaterBack\dws\Chater\obj\Debug\netcoreapp2.1\Chater.RazorTargetAssemblyInfo.cache
+E:\Projekti\ChaterBack\dws\Chater\obj\Debug\netcoreapp2.1\Chater.dll
+E:\Projekti\ChaterBack\dws\Chater\obj\Debug\netcoreapp2.1\Chater.pdb

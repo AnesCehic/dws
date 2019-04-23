@@ -12534,23 +12534,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Sanjin\\.nuget\\packages\\": {},
+    "C:\\Users\\anes\\.nuget\\packages\\": {},
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Sanjin\\Desktop\\dwsBack\\Chater\\Chater.csproj",
+      "projectUniqueName": "E:\\Projekti\\ChaterBack\\dws\\Chater\\Chater.csproj",
       "projectName": "Chater",
-      "projectPath": "C:\\Users\\Sanjin\\Desktop\\dwsBack\\Chater\\Chater.csproj",
-      "packagesPath": "C:\\Users\\Sanjin\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Sanjin\\Desktop\\dwsBack\\Chater\\obj\\",
+      "projectPath": "E:\\Projekti\\ChaterBack\\dws\\Chater\\Chater.csproj",
+      "packagesPath": "C:\\Users\\anes\\.nuget\\packages\\",
+      "outputPath": "E:\\Projekti\\ChaterBack\\dws\\Chater\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "C:\\Users\\Sanjin\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\anes\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [

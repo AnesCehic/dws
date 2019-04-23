@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "E:\\Projekti\\ChaterBack\\Chater\\Chater.csproj": {}
+    "E:\\Projekti\\ChaterBack\\dws\\Chater\\Chater.csproj": {}
   },
   "projects": {
-    "E:\\Projekti\\ChaterBack\\Chater\\Chater.csproj": {
+    "E:\\Projekti\\ChaterBack\\dws\\Chater\\Chater.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\Projekti\\ChaterBack\\Chater\\Chater.csproj",
+        "projectUniqueName": "E:\\Projekti\\ChaterBack\\dws\\Chater\\Chater.csproj",
         "projectName": "Chater",
-        "projectPath": "E:\\Projekti\\ChaterBack\\Chater\\Chater.csproj",
+        "projectPath": "E:\\Projekti\\ChaterBack\\dws\\Chater\\Chater.csproj",
         "packagesPath": "C:\\Users\\anes\\.nuget\\packages\\",
-        "outputPath": "E:\\Projekti\\ChaterBack\\Chater\\obj\\",
+        "outputPath": "E:\\Projekti\\ChaterBack\\dws\\Chater\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

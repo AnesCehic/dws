@@ -27,10 +27,14 @@ namespace Chater.Controllers
         }
 
         [HttpGet]
-        [Route("{userId}/channels")]
-        public async Task<ActionResult<IEnumerable<Group>>> GetChannels(string userId)
+        [Route("/user/channels/{userId}")]
+        public async Task<ActionResult> GetChannels(string userId)
         {
-            return await _context.Groups.ToListAsync();
+            return Ok(Json(_context.UserGroups.Include(u => u.Group).Where(ug => ug.UserId == userId).ToListAsync()));
+
+            //return Ok(_context.UserGroups.Include(u => u.Group).ToArrayAsync());
+            //return await _context.Groups.Include(u => u.User).ToListAsync();
+            
         }
 
         [HttpGet]
@@ -52,7 +56,10 @@ namespace Chater.Controllers
         public async Task<ActionResult<Group>> CreateChannel(string userId, [FromBody] Group group)
         {
             var user = await _userManager.FindByIdAsync(userId);
-            _context.Groups.Add(new Group() { Name = group.Name, User = user });
+            Group c = new Group { Name = group.Name, User = user };
+            UserGroups ug = new UserGroups { User = user, Group = c };
+            _context.Groups.Add(c);
+            _context.UserGroups.Add(ug);
             await _context.SaveChangesAsync();
             return Ok(group);
             
@@ -101,10 +108,10 @@ namespace Chater.Controllers
         // zavrsiti
         [HttpPost]
         [Route("channel/{id}/addUsers")]
-        public async Task<ActionResult> AddUsersToGroup(string id, UserDto userDto)
+        public async Task<ActionResult> AddUsersToGroup(string id, [FromBody] UserDto userDto)
         {
             Group group = await _context.Groups.FindAsync(id);
-            ApplicationUser user = await _userManager.FindByIdAsync(userDto.Id);
+            ApplicationUser user = await _userManager.FindByIdAsync(userDto.User);
 
             UserGroups userGroups = new UserGroups
             {
@@ -121,7 +128,7 @@ namespace Chater.Controllers
         public class UserDto
         {
             [Required]
-            public string Id;
+            public string User { get; set; }
         }
     }
 }
