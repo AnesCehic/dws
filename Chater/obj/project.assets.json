@@ -4615,6 +4615,36 @@
         "runtime": {
           "lib/netstandard1.3/System.Xml.XPath.XDocument.dll": {}
         }
+      },
+      "DTO/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v2.1",
+        "compile": {
+          "bin/placeholder/DTO.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/DTO.dll": {}
+        }
+      },
+      "Hubs/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v2.1",
+        "compile": {
+          "bin/placeholder/Hubs.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Hubs.dll": {}
+        }
+      },
+      "Models/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v2.1",
+        "compile": {
+          "bin/placeholder/Models.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Models.dll": {}
+        }
       }
     }
   },
@@ -12523,14 +12553,32 @@
         "system.xml.xpath.xdocument.4.3.0.nupkg.sha512",
         "system.xml.xpath.xdocument.nuspec"
       ]
+    },
+    "DTO/1.0.0": {
+      "type": "project",
+      "path": "../DTO/DTO.csproj",
+      "msbuildProject": "../DTO/DTO.csproj"
+    },
+    "Hubs/1.0.0": {
+      "type": "project",
+      "path": "../SignalR/Hubs.csproj",
+      "msbuildProject": "../SignalR/Hubs.csproj"
+    },
+    "Models/1.0.0": {
+      "type": "project",
+      "path": "../Models/Models.csproj",
+      "msbuildProject": "../Models/Models.csproj"
     }
   },
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v2.1": [
+      "DTO >= 1.0.0",
+      "Hubs >= 1.0.0",
       "Microsoft.AspNetCore.App >= 2.1.1",
       "Microsoft.AspNetCore.Razor.Design >= 2.1.2",
       "Microsoft.NETCore.App >= 2.1.0",
-      "Microsoft.VisualStudio.Web.CodeGeneration.Design >= 2.1.9"
+      "Microsoft.VisualStudio.Web.CodeGeneration.Design >= 2.1.9",
+      "Models >= 1.0.0"
     ]
   },
   "packageFolders": {
@@ -12540,11 +12588,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "E:\\Projekti\\ChaterBack\\dws\\Chater\\Chater.csproj",
+      "projectUniqueName": "C:\\Users\\anes\\Desktop\\dws\\dws\\Chater\\Chater.csproj",
       "projectName": "Chater",
-      "projectPath": "E:\\Projekti\\ChaterBack\\dws\\Chater\\Chater.csproj",
+      "projectPath": "C:\\Users\\anes\\Desktop\\dws\\dws\\Chater\\Chater.csproj",
       "packagesPath": "C:\\Users\\anes\\.nuget\\packages\\",
-      "outputPath": "E:\\Projekti\\ChaterBack\\dws\\Chater\\obj\\",
+      "outputPath": "C:\\Users\\anes\\Desktop\\dws\\dws\\Chater\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -12562,7 +12610,17 @@
       },
       "frameworks": {
         "netcoreapp2.1": {
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Users\\anes\\Desktop\\dws\\dws\\DTO\\DTO.csproj": {
+              "projectPath": "C:\\Users\\anes\\Desktop\\dws\\dws\\DTO\\DTO.csproj"
+            },
+            "C:\\Users\\anes\\Desktop\\dws\\dws\\Models\\Models.csproj": {
+              "projectPath": "C:\\Users\\anes\\Desktop\\dws\\dws\\Models\\Models.csproj"
+            },
+            "C:\\Users\\anes\\Desktop\\dws\\dws\\SignalR\\Hubs.csproj": {
+              "projectPath": "C:\\Users\\anes\\Desktop\\dws\\dws\\SignalR\\Hubs.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

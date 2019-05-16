@@ -5,7 +5,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace Chater.Models
+namespace Models.Models
 {
     public class ApplicationDbContext : IdentityDbContext<ApplicationUser>
     {

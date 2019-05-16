@@ -1,0 +1,9 @@
+C:\Users\anes\Desktop\dws\dws\DTO\bin\Debug\netcoreapp2.1\DTO.deps.json
+C:\Users\anes\Desktop\dws\dws\DTO\bin\Debug\netcoreapp2.1\DTO.dll
+C:\Users\anes\Desktop\dws\dws\DTO\bin\Debug\netcoreapp2.1\DTO.pdb
+C:\Users\anes\Desktop\dws\dws\DTO\obj\Debug\netcoreapp2.1\DTO.csprojAssemblyReference.cache
+C:\Users\anes\Desktop\dws\dws\DTO\obj\Debug\netcoreapp2.1\DTO.csproj.CoreCompileInputs.cache
+C:\Users\anes\Desktop\dws\dws\DTO\obj\Debug\netcoreapp2.1\DTO.AssemblyInfoInputs.cache
+C:\Users\anes\Desktop\dws\dws\DTO\obj\Debug\netcoreapp2.1\DTO.AssemblyInfo.cs
+C:\Users\anes\Desktop\dws\dws\DTO\obj\Debug\netcoreapp2.1\DTO.dll
+C:\Users\anes\Desktop\dws\dws\DTO\obj\Debug\netcoreapp2.1\DTO.pdb

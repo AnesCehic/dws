@@ -1,0 +1,16 @@
+C:\Users\anes\Desktop\dws\dws\Models\bin\Debug\netcoreapp2.1\Models.deps.json
+C:\Users\anes\Desktop\dws\dws\Models\bin\Debug\netcoreapp2.1\Models.dll
+C:\Users\anes\Desktop\dws\dws\Models\bin\Debug\netcoreapp2.1\Models.pdb
+C:\Users\anes\Desktop\dws\dws\Models\bin\Debug\netcoreapp2.1\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
+C:\Users\anes\Desktop\dws\dws\Models\bin\Debug\netcoreapp2.1\Microsoft.EntityFrameworkCore.dll
+C:\Users\anes\Desktop\dws\dws\Models\bin\Debug\netcoreapp2.1\Microsoft.Extensions.Identity.Stores.dll
+C:\Users\anes\Desktop\dws\dws\Models\bin\Debug\netcoreapp2.1\Microsoft.AspNetCore.Identity.EntityFrameworkCore.xml
+C:\Users\anes\Desktop\dws\dws\Models\bin\Debug\netcoreapp2.1\Microsoft.EntityFrameworkCore.xml
+C:\Users\anes\Desktop\dws\dws\Models\bin\Debug\netcoreapp2.1\Microsoft.Extensions.Identity.Stores.xml
+C:\Users\anes\Desktop\dws\dws\Models\obj\Debug\netcoreapp2.1\Models.csprojAssemblyReference.cache
+C:\Users\anes\Desktop\dws\dws\Models\obj\Debug\netcoreapp2.1\Models.csproj.CoreCompileInputs.cache
+C:\Users\anes\Desktop\dws\dws\Models\obj\Debug\netcoreapp2.1\Models.AssemblyInfoInputs.cache
+C:\Users\anes\Desktop\dws\dws\Models\obj\Debug\netcoreapp2.1\Models.AssemblyInfo.cs
+C:\Users\anes\Desktop\dws\dws\Models\obj\Debug\netcoreapp2.1\Models.csproj.CopyComplete
+C:\Users\anes\Desktop\dws\dws\Models\obj\Debug\netcoreapp2.1\Models.dll
+C:\Users\anes\Desktop\dws\dws\Models\obj\Debug\netcoreapp2.1\Models.pdb

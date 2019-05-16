@@ -1,0 +1,12 @@
+C:\Users\anes\Desktop\dws\dws\SignalR\bin\Debug\netcoreapp2.1\Hubs.deps.json
+C:\Users\anes\Desktop\dws\dws\SignalR\bin\Debug\netcoreapp2.1\Hubs.dll
+C:\Users\anes\Desktop\dws\dws\SignalR\bin\Debug\netcoreapp2.1\Hubs.pdb
+C:\Users\anes\Desktop\dws\dws\SignalR\bin\Debug\netcoreapp2.1\Microsoft.AspNetCore.SignalR.Core.dll
+C:\Users\anes\Desktop\dws\dws\SignalR\bin\Debug\netcoreapp2.1\Microsoft.AspNetCore.SignalR.Core.xml
+C:\Users\anes\Desktop\dws\dws\SignalR\obj\Debug\netcoreapp2.1\Hubs.csprojAssemblyReference.cache
+C:\Users\anes\Desktop\dws\dws\SignalR\obj\Debug\netcoreapp2.1\Hubs.csproj.CoreCompileInputs.cache
+C:\Users\anes\Desktop\dws\dws\SignalR\obj\Debug\netcoreapp2.1\Hubs.AssemblyInfoInputs.cache
+C:\Users\anes\Desktop\dws\dws\SignalR\obj\Debug\netcoreapp2.1\Hubs.AssemblyInfo.cs
+C:\Users\anes\Desktop\dws\dws\SignalR\obj\Debug\netcoreapp2.1\Hubs.csproj.CopyComplete
+C:\Users\anes\Desktop\dws\dws\SignalR\obj\Debug\netcoreapp2.1\Hubs.dll
+C:\Users\anes\Desktop\dws\dws\SignalR\obj\Debug\netcoreapp2.1\Hubs.pdb
